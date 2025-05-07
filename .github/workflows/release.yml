@@ -1,0 +1,4 @@
+name: Release a plugin
+
+on:
+  workflow_call:
