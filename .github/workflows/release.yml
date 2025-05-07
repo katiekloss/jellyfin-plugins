@@ -2,3 +2,11 @@ name: Release a plugin
 
 on:
   workflow_call:
+
+jobs:
+  release:
+    name: Release ${{ github.event.repository.name }}
+    runs-on: ubuntu-latest
+    steps:
+      -
+        run: echo "hello, world!"
