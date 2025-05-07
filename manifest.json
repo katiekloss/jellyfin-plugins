@@ -11,17 +11,9 @@
                 "version": "2.2.0",
                 "changelog":"- Removed the default task trigger\n- Removed the post-scan task which merges remuxed versions\n- Added support for multiple and non-English audio streams\n- Added a configuration page",
                 "targetAbi": "10.10.6.0",
-                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v2.2.0/jellyfin-plugin-doviremux-2.2.0.zip",
-                "checksum": "f7c1ea398e1094a4180d405427196903",
+                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v2.2.0/doviremux_2.2.0.0.zip",
+                "checksum": "00c2d2b3af85c812039ee2be5e1ef313",
                 "timestamp": "2025-05-07T08:20:00"
-            },
-            {
-                "version": "2.0.2",
-                "changelog": "- Fixed the remuxed audio stream missing its language metadata\n- Fixed \"file exists\" errors on temporary/final paths for various scenarios\n- Fixed temporary file being left behind and freezing FFmpeg if a previous run failed midway\n- Fixed remuxed items still appearing as duplicates in the UI",
-                "targetAbi": "10.10.6.0",
-                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v2.0.2/build-artifact.zip",
-                "checksum": "96d4434a2754615b54e9f7423e2e9296",
-                "timestamp": "2025-05-05T13:14:00"
             }
         ]
     }
