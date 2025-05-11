@@ -2,11 +2,19 @@
     {
         "guid": "2f215b63-1a73-4193-9102-78f84d027014",
         "name": "DoVi Remux",
-        "description": "Remuxes media with Dolby Vision profile 8.1 metadata from MKV to MP4, for better support on LG WebOS TVs",
+        "description": "Remuxes media with Dolby Vision metadata from MKV to MP4, for better support on LG WebOS TVs",
         "owner": "Katie Kloss",
         "repository": "https://github.com/katiekloss/jellyfin-plugin-doviremux",
         "category": "General",
         "versions": [
+            {
+                "version": "3.0.0",
+                "changelog": "- Plugin will now remux all Dolby Vision content, regardless of profile\n- Added a Primary User config option, which will:\n  - Skip remuxing for previously-watched content\n  - Delete remuxes after the user has watched them",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v3.0.0/doviremux_3.0.0.0.zip",
+                "checksum": "52ef419ba825151ac51581c75be31cdf",
+                "timestamp": "2025-05-11T01:00:00"
+            },
             {
                 "version": "2.2.0",
                 "changelog":"- Removed the default task trigger\n- Removed the post-scan task which merges remuxed versions\n- Added support for multiple and non-English audio streams\n- Added a configuration page",
