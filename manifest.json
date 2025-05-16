@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "3.1.0",
+                "changelog": "- Added support for converting DoVi Profile 7.6 to 8.1",
+                "targetAbi": "10.10.6.0",
+                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v3.1.0/doviremux_3.1.0.0.zip",
+                "checksum": "16ae8de69cceda64c8514768b845bf59",
+                "timestamp": "2025-05-16T13:45:00"
+            },
+            {
                 "version": "3.0.0",
                 "changelog": "- Plugin will now remux all Dolby Vision content, regardless of profile\n- Added a Primary User config option, which will:\n  - Skip remuxing for previously-watched content\n  - Delete remuxes after the user has watched them",
                 "targetAbi": "10.10.6.0",
