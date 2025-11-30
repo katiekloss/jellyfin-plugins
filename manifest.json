@@ -8,12 +8,12 @@
         "category": "General",
         "versions": [
             {
-                "version": "3.3.0",
+                "version": "3.3.1",
                 "changelog": "- Plugin now supports Jellyfin 10.11",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v3.3.0/doviremux_3.3.0.0.zip",
-                "checksum": "07378995482b95c92f255046282cd895",
-                "timestamp": "2025-11-28T00:33:00"
+                "sourceUrl": "https://github.com/katiekloss/jellyfin-plugin-doviremux/releases/download/v3.3.1/doviremux_3.3.1.0.zip",
+                "checksum": "390d517a12755edd40d9d538141a558c",
+                "timestamp": "2025-11-30T15:33:00"
             },
             {
                 "version": "3.2.0",
